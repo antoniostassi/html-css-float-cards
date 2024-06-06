@@ -38,6 +38,13 @@ body {
     max-width:1200px;
     margin:auto;
     padding:20px;
+    background: linear-gradient(black 0%, #2E2E2E 90%) 0% 0% no-repeat padding-box;
+    margin-top:50px;
+    border-radius:20px;
+}
+
+header p:last-child{ /* ;) */
+    text-align:center;
 }
 
 /* Main */
