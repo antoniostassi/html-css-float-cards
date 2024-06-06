@@ -38,7 +38,7 @@ body {
     max-width:1200px;
     margin:auto;
     padding:20px;
-    background: linear-gradient(white 0%, #E53170 95%) 0% 0% no-repeat padding-box;
+    background: linear-gradient(white 0%, #E53170 100%) 0% 0% no-repeat padding-box;
     margin-top:50px;
     border-radius:20px;
 }
