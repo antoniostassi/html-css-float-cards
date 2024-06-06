@@ -5,11 +5,11 @@
     box-sizing:border-box;
     /* Lo faccio solo io */
     font-family: "Fredoka", sans-serif;
-    color:white;
+    color:black;
 }
 
 body {
-    background-color:#2E2E2E;
+    background-color:#E53170;
 }
 
 /* General Classes */
@@ -38,7 +38,7 @@ body {
     max-width:1200px;
     margin:auto;
     padding:20px;
-    background: linear-gradient(black 0%, #2E2E2E 90%) 0% 0% no-repeat padding-box;
+    background: linear-gradient(white 0%, #E53170 95%) 0% 0% no-repeat padding-box;
     margin-top:50px;
     border-radius:20px;
 }
@@ -55,7 +55,7 @@ header p:last-child{ /* ;) */
 }
 
 .profiles > .pro-card {
-    box-shadow: #e5317098 5px 12px 35px;
+    box-shadow: #2E2E2E 5px 12px 35px;
 }
 
 .pro-card {
@@ -79,11 +79,15 @@ header p:last-child{ /* ;) */
     float:left;
 }
 
-.pro-card p, a {
+.pro-card p, .pro-card a {
     display:block;
     margin-top:15px;
     margin-bottom:15px;
     margin-left:40%; /* Cioè il margine dev'essere il 40% del container "pro-card" affinché vada quasi al centro*/
+}
+
+.pro-card p, .pro-card strong{
+    color:white;
 }
 
 /* Animation */
