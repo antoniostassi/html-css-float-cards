@@ -1,0 +1,26 @@
+/* Reset */
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    /* Lo faccio solo io */
+    font-family: "Fredoka", sans-serif;
+    color:white;
+}
+
+body {
+    background-color:#2E2E2E;
+}
+
+/* General Classes */
+.red-color {
+    color:#E53170;
+    text-align:center;
+}
+
+/* Header */
+.container {
+    max-width:1000px;
+    margin:auto;
+    padding:10px;
+}
